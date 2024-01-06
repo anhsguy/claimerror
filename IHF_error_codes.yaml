@@ -1,0 +1,10 @@
+---
+"EF1": "IHF number not approved for billing on the date specified"
+"EF2": "IHF not licensed or grandfathered to bill FSC on the date specified"
+"EF3": "Insured services are excluded from IHF billings"
+"EF4": "Provider is not approved to bill IHF fee on date specified"
+"EF5": "IHF practitioner 991000 is not allowed to bill insured services"
+"EF7": "Referring physician number is required for the IHF fee billed"
+"EF8": "'I' service codes are exclusive to IHFs"
+"EF9": "Mobile site number required"
+...

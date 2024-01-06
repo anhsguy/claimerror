@@ -1,0 +1,14 @@
+---
+"VHA": "OHIP number not registered with ministry for health number"
+"VHB": "No HN Required for FSC  A non-encounter service claim submitted with a Health Number"
+"VH0": "Header 2 and HN Present	Claim Header-2 present on MRI claim submitted with Health Number in Claim Header-1"
+"VH1": "Health Number is missing/invalid"
+"VH2": "Health Number is Missing	Health Number is not present (Payment program is HCP or WCB)"
+"VH3": "Invalid Payment Program	 The payment program is missing or is not equal to HCP, RMB, WCB"
+"VH4": "Invalid Version Code"
+"VH5": "OHIP Number Required for Service Date"
+"VH6": "Mixed Service Dates"
+"VH7": "Health number and OHIP number on same claim"
+"VH8": "Date of birth does not match the Health Number submitted"
+"VH9": "Health Number is not registered with ministry"
+...

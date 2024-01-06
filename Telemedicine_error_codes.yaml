@@ -1,0 +1,13 @@
+---
+"ET1": "Not Registered for Telemedicine"
+"ET4": "Telemedicine Premium/Tracking Code Missing"
+"ET5": "Telemedicine SLI Missing/Invalid - The telemedicine billing is submitted with a telemedicine tracking code but the SLI code is not 'OTN' or is not present."
+"TM1": "Duplicate Telemedicine Claim, Same patient"
+"TM2": "Service not Billable for Missed/ Cancelled/Abandoned Appointment"
+"TM3": "Service not payable underTelemedicine Program"
+"TM4": "Non Telemedicine Claim paid for same patient"
+"TM5": "Telemedicine Claim Paid for same patient"
+"TM6": "Registration not in effect on Service Date"
+"TM7": "Dental Service not eligible for Telemedicine"
+"TM8": "Not eligible for Store Forward"
+...

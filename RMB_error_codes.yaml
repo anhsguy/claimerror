@@ -1,0 +1,14 @@
+---
+"R01": "Missing Health Service Number (HSN)"
+"R02": "Invalid HSN"
+"R03": "Invalid/Missing Province Code"
+"R04": "Service Excluded from RMBS"
+"R05": "Provincial code invalid for RMBS	Province code of 'ON' (Ontario) or ‘PQ’ (Quebec) and not an Outaouais claim"
+"R06": "Invalid Provider for RMBS"
+"R07": "Invalid Payment Type for RMBS"
+"R08": "Invalid Referral Number"
+"R09": "Claim Header 2 Missing-RMB"
+"V10": "Patient's last name is missing/not alphabetic (A-Z) First field position is blank"
+"V12": "Patient's first name is missing/not alphabetic (A-Z) First field position is blank"
+"V14": "Patient sex must be '1' (male) or '2' (female)"
+...

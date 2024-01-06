@@ -1,0 +1,836 @@
+
+1. HX1 Group/Provider Header Record
+TechSpecReleaseIdentifier: V03
+MohOfficeCode: G
+OperatorNumber: 000000
+GroupNumber: 0000
+ProviderNumber: 801284
+SpecialtyCode: 56
+StationNumber: 48
+ClaimProcessDate: 20231114
+
+2. HXH Claims Header 1 Record
+HealthNumber: 8159647182
+VersionCode: WK
+PatientBirthdate: 19610101
+AccountingNumber: 11100006
+PaymentProgram: HCP
+Payee: P
+ReferringProviderNumber:       
+MasterNumber:     
+PatientAdmissionDate:         
+ReferringLabLicence:     
+ServiceLocationIndicator:     
+ReservedForMOH_2:    
+ErrorCode1:    
+ErrorCode2:    
+ErrorCode3:    
+ErrorCode4:    
+ErrorCode5:    
+
+4. HXT Claim Item Record
+ServiceCode: V451A
+FeeSubmitted: 004800
+NumberOfServices: 01
+ServiceDate: 20231111
+DiagnosticCode: 367 
+    ExplanCode:   
+ErrorCode1: EPP
+ErrorCode2:    
+ErrorCode3:    
+ErrorCode4:    
+ErrorCode5:    
+
+2. HXH Claims Header 1 Record
+HealthNumber: 6561098861
+VersionCode: AH
+PatientBirthdate: 19570202
+AccountingNumber: 11100008
+PaymentProgram: HCP
+Payee: P
+ReferringProviderNumber:       
+MasterNumber:     
+PatientAdmissionDate:         
+ReferringLabLicence:     
+ServiceLocationIndicator:     
+ReservedForMOH_2:    
+ErrorCode1:    
+ErrorCode2:    
+ErrorCode3:    
+ErrorCode4:    
+ErrorCode5:    
+
+4. HXT Claim Item Record
+ServiceCode: V451A
+FeeSubmitted: 004800
+NumberOfServices: 01
+ServiceDate: 20231111
+DiagnosticCode: 367 
+    ExplanCode:   
+ErrorCode1: A2A
+ErrorCode2:    
+ErrorCode3:    
+ErrorCode4:    
+ErrorCode5:    
+
+2. HXH Claims Header 1 Record
+HealthNumber: 3847443342
+VersionCode: KB
+PatientBirthdate: 20140814
+AccountingNumber: 11100010
+PaymentProgram: HCP
+Payee: P
+ReferringProviderNumber:       
+MasterNumber:     
+PatientAdmissionDate:         
+ReferringLabLicence:     
+ServiceLocationIndicator:     
+ReservedForMOH_2:    
+ErrorCode1:    
+ErrorCode2:    
+ErrorCode3:    
+ErrorCode4:    
+ErrorCode5:    
+
+4. HXT Claim Item Record
+ServiceCode: V402A
+FeeSubmitted: 002515
+NumberOfServices: 01
+ServiceDate: 20231111
+DiagnosticCode: 367 
+    ExplanCode:   
+ErrorCode1: EH2
+ErrorCode2:    
+ErrorCode3:    
+ErrorCode4:    
+ErrorCode5:    
+
+6. HX9 Group/Provider Trailer Record
+Header1Count: 0000003
+Header2Count: 0000000
+ItemCount: 0000003
+MessageCount: 0000000
+ReservedForMOH:                                                 
+Array
+(
+    [0] => Array
+        (
+            [0] => 11100006
+            [1] => EPP
+            [2] => Incorrect Code for Eligibility (Ontario Works/Ontario Disability Support Program)
+            [3] => EK801284.026
+        )
+
+    [1] => Array
+        (
+            [0] => 11100008
+            [1] => A2A
+            [2] => Outside of Age Limit - Patient is underage or overage for this service code
+            [3] => EK801284.026
+        )
+
+    [2] => Array
+        (
+            [0] => 11100010
+            [1] => EH2
+            [2] => Mismatched Version Code
+            [3] => EK801284.026
+        )
+
+)
+Array
+(
+)
+Array
+(
+    [0] => Array
+        (
+            [0] => 11100006
+            [1] => $48.00
+        )
+
+    [1] => Array
+        (
+            [0] => 11100008
+            [1] => $48.00
+        )
+
+    [2] => Array
+        (
+            [0] => 11100010
+            [1] => $25.15
+        )
+
+)
+1. HR1 File Header Record – Health Reconciliation
+TechSpecReleaseIdentifier: V03
+ReservedForMOH: 0
+GroupNumber: 0000
+HealthCareProvider: 801284
+Specialty: 56
+MohOfficeCode: H
+RemittanceAdviceDataSequence: 7
+PaymentDate: 20231114
+PayeeName: YANG                     DR Y 
+TotalAmountPayable: 000093300
+TotalAmountPayableSign:  
+ChequeNumber: 99999999
+ReservedForMOH_1:   
+
+2. HR2 Address Record One – Health Reconciliation
+BillingAgentName:                               
+AddressLineOne: 289 DEARBORN BOULEVARD   
+ReservedForMOH:                      
+
+3. HR3 Address Record Two – Health Reconciliation
+AddressLine2: WATERLOO        ON N2J4Y8
+AddressLine3:                          
+ReservedForMOH:                           
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470132
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 5276310280  
+VersionCode: JY
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470132
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470130
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6110088793  
+VersionCode: TX
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470130
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470127
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6872274433  
+VersionCode: EN
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470127
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V412A
+ReservedForMOH:                                  
+AmountSubmitted: 002500
+AmountPaid: 000000
+AmountPaidSign:  
+ExplanatorhyCode: DF
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470128
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6872274433  
+VersionCode: EN
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470128
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470125
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 7280884896  
+VersionCode: HH
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470125
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470123
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 8460739140  
+VersionCode: CD
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470123
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470135
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 1372606788  
+VersionCode: DL
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470135
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V450A
+ReservedForMOH:                                  
+AmountSubmitted: 004800
+AmountPaid: 004800
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3101053683
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6448674488  
+VersionCode: CD
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3101053683
+TransactionType: 1
+ServiceDate: 20231008
+NumberOfServices: 01
+ServiceCode: V451A
+ReservedForMOH:                                  
+AmountSubmitted: 004800
+AmountPaid: 004800
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470124
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 7502747327  
+VersionCode: TP
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470124
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V406A
+ReservedForMOH:                                  
+AmountSubmitted: 008000
+AmountPaid: 008000
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470133
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 3367671439  
+VersionCode: NX
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470133
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470131
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 5996161989  
+VersionCode: GD
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470131
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3101053684
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 3176385221  
+VersionCode: PB
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3101053684
+TransactionType: 1
+ServiceDate: 20231008
+NumberOfServices: 01
+ServiceCode: V409A
+ReservedForMOH:                                  
+AmountSubmitted: 005500
+AmountPaid: 005500
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102694937
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6719696038  
+VersionCode: KD
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102694937
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470129
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6831714834  
+VersionCode: KF
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470129
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470122
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 9981798094  
+VersionCode: DM
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470122
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470134
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 2661514899  
+VersionCode: TL
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470134
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470126
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 6930928715  
+VersionCode: CW
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470126
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3102470136
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 7299003942  
+VersionCode: RB
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3102470136
+TransactionType: 1
+ServiceDate: 20231021
+NumberOfServices: 01
+ServiceCode: V407A
+ReservedForMOH:                                  
+AmountSubmitted: 008000
+AmountPaid: 008000
+AmountPaidSign:  
+ExplanatorhyCode: VN
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3101053686
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 1326004973  
+VersionCode: DW
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3101053686
+TransactionType: 1
+ServiceDate: 20231008
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+4. HR4 Claim Header Record – Health Reconciliation
+ClaimNumber: G3101053687
+TransactionType: 1
+HealthCareProvider: 801284
+Specialty: 56
+AccountingNumber: C2023000
+PatientLastName:               
+PatientFirstName:      
+ProvinceCode: ON
+HealthRegistrationNumber: 7911154073  
+VersionCode: WH
+PaymentProgram: HCP
+ServiceLocationIndicator:     
+MohGroupIdentifier: 0000
+ReservedForMOH:   
+
+5. HR5 Claim Item Record – Health Reconciliation
+ClaimNumber: G3101053687
+TransactionType: 1
+ServiceDate: 20231008
+NumberOfServices: 01
+ServiceCode: V404A
+ReservedForMOH:                                  
+AmountSubmitted: 005100
+AmountPaid: 005100
+AmountPaidSign:  
+ExplanatorhyCode:   
+ReservedForMOH:                                  
+
+6. HR6 Balance Forward Record – Health Reconciliation
+AmountBroughtForward1: 000000000
+AmountBroughtForward2:  
+AmountBroughtForward3: 000000000
+AmountBroughtForward4:  
+AmountBroughtForward5: 000006900
+AmountBroughtForward6: -
+AmountBroughtForward7: 000000000
+AmountBroughtForward8:  
+ReservedForMOH:                                     
+
+7. HR7 Accounting Transaction Record 
+TransactionCode: 20
+ChequeIndicator:  
+TransactionDate: 20231016
+TransactionAmount: 00002300
+TransactionAmountSign: -
+TransactionMessage: EMERG ADVANCE (COVID19) RECOVERY                  
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  *******************************************************************  
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  THE PAYMENT AMOUNT INDICATED MAY BE SUBJECT TO ADJUSTMENT            
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  DUE TO THIRD PARTY REQUEST(S).  EG: COURT ORDERS, ASSIGNMENTS, ETC.  
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  IF YOUR PAYMENT AMOUNT IS CHANGED, YOU WILL BE NOTIFIED WITHIN       
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  FIVE BUSINESS DAYS FROM THE DATE OF THIS REMITTANCE.                 
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  *******************************************************************  
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:  ADDITIONAL EXPLANATORY CODES APPLICABLE TO THIS SUBMISSION           
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:                                                                       
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText: DF - CORRESPONDING FEE CODE HAS NOT BEEN CLAIMED OR                   
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:      WASAPPROVED AT ZERO                                              
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText: VN - ALLOWED AS MAJOR OCULO-VISUAL EXAM FOR SENIORS W/MED.            
+ReservedForMOH:       
+
+8. HR8 Message Facility Record 
+MessageText:      CONDITIONS                                                       
+ReservedForMOH:     
